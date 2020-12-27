@@ -18,13 +18,17 @@ public class GeneratedPerson {
     private String postalCode;
     private String town;
     private String building;
-    private String buildingLiter;
+    private String buildingLiter; // like 1A
     private String buildingID;
     private String entranceID;
     private String street;
-    private String floor;
-    private String apartmentID; // could be number could be number and character
-
+    private int floor; //0 to 200
+    private String apartmentID; // could be number could be number and character 100, 1010B
+    private String occupation;
+    private String position;
+    private int age; // must be limited from 1 to 120
+    private String phoneNumber;
+    private int salary; // 0 to eternity
     GeneratedPerson(String stringCountry, String gender){
 
     }
